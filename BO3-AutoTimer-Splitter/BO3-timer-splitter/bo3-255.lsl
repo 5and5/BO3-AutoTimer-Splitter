@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1349</X>
-  <Y>360</Y>
+  <X>1208</X>
+  <Y>187</Y>
   <VerticalWidth>286</VerticalWidth>
   <VerticalHeight>318</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -105,7 +105,7 @@
           <Settings>
             <Version>1.5</Version>
             <Name>+/-</Name>
-            <Type>Delta</Type>
+            <Type>SegmentDeltaorSegmentTime</Type>
             <Comparison>Current Comparison</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
@@ -114,7 +114,7 @@
             <Name>Time</Name>
             <Type>SplitTime</Type>
             <Comparison>Current Comparison</Comparison>
-            <TimingMethod>Current Timing Method</TimingMethod>
+            <TimingMethod>Game Time</TimingMethod>
           </Settings>
         </Columns>
       </Settings>
@@ -149,8 +149,8 @@
         <Comparison>Current Comparison</Comparison>
         <Comparison2>Best Segments</Comparison2>
         <HideComparison>False</HideComparison>
-        <TimingMethod>Current Timing Method</TimingMethod>
-        <DecimalsSize>35</DecimalsSize>
+        <TimingMethod>Game Time</TimingMethod>
+        <DecimalsSize>26</DecimalsSize>
         <SegmentTimerDecimalsSize>35</SegmentTimerDecimalsSize>
       </Settings>
     </Component>
@@ -189,8 +189,9 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>E:\BO3 mods\BO3-AutoTimer-Splitter\BO3_Game_Timer.asl</ScriptPath>
+        <ScriptPath></ScriptPath>
         <Start>True</Start>
+        <Split>True</Split>
         <CustomSettings />
       </Settings>
     </Component>

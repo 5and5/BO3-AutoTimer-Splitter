@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>-360</X>
-  <Y>31</Y>
+  <X>1316</X>
+  <Y>207</Y>
   <VerticalWidth>335</VerticalWidth>
-  <VerticalHeight>465</VerticalHeight>
+  <VerticalHeight>540</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -83,7 +83,7 @@
             <Version>1.5</Version>
             <Name>+/-</Name>
             <Type>Delta</Type>
-            <Comparison>Personal Best</Comparison>
+            <Comparison>Average Segments</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
           <Settings>
@@ -91,7 +91,7 @@
             <Name>Time</Name>
             <Type>SplitTime</Type>
             <Comparison>Current Comparison</Comparison>
-            <TimingMethod>Current Timing Method</TimingMethod>
+            <TimingMethod>Game Time</TimingMethod>
           </Settings>
         </Columns>
       </Settings>
@@ -165,7 +165,7 @@
       <Path>LiveSplit.DetailedTimer.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <Height>75</Height>
+        <Height>90</Height>
         <Width>200</Width>
         <SegmentTimerSizeRatio>40</SegmentTimerSizeRatio>
         <TimerShowGradient>False</TimerShowGradient>
@@ -192,7 +192,7 @@
         <Comparison2>Best Segments</Comparison2>
         <HideComparison>False</HideComparison>
         <TimingMethod>Game Time</TimingMethod>
-        <DecimalsSize>35</DecimalsSize>
+        <DecimalsSize>14</DecimalsSize>
         <SegmentTimerDecimalsSize>30</SegmentTimerDecimalsSize>
       </Settings>
     </Component>
@@ -200,10 +200,28 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>C:\Users\Jumpy ssd\Desktop\hide ssd\livesplit stuff\bo3 autsplitter\BO3-AutoTimer-Splitter\BO3_timer_script.asl</ScriptPath>
+        <ScriptPath>C:\Users\Riley\Documents\LiveSplit\BO123-AutoTimer-Splitter\BO3-AutoTimer-Splitter\BO3-timer-splitter_all_rounds\BO3_timer-splitter_all_rounds.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings />
+      </Settings>
+    </Component>
+    <Component>
+      <Path>LiveSplit.Timer.dll</Path>
+      <Settings>
+        <Version>1.5</Version>
+        <TimerHeight>50</TimerHeight>
+        <TimerWidth>225</TimerWidth>
+        <TimerFormat>1.23</TimerFormat>
+        <OverrideSplitColors>False</OverrideSplitColors>
+        <ShowGradient>True</ShowGradient>
+        <TimerColor>FFAAAAAA</TimerColor>
+        <BackgroundColor>00FFFFFF</BackgroundColor>
+        <BackgroundColor2>00FFFFFF</BackgroundColor2>
+        <BackgroundGradient>Plain</BackgroundGradient>
+        <CenterTimer>False</CenterTimer>
+        <TimingMethod>Current Timing Method</TimingMethod>
+        <DecimalsSize>35</DecimalsSize>
       </Settings>
     </Component>
   </Components>

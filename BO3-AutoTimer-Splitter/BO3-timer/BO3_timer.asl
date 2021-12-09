@@ -39,11 +39,6 @@ init
 
 start
 {
-	if(current.round == 0)
-    {
-        vars.split_index = 0;
-    }
-
 	return true;
 }
 

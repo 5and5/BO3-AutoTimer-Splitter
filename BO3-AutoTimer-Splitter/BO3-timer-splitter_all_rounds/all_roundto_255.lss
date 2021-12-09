@@ -19,23 +19,7 @@
   <AttemptHistory>
   </AttemptHistory>
   <Segments>
-    <Segment>
-      <Name>1</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:43.7070000</RealTime>
-        <GameTime>00:00:24.7500000</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="149">
-          <RealTime>00:00:43.7070000</RealTime>
-          <GameTime>00:00:58.6000000</GameTime>
-        </Time>
-      </SegmentHistory>
-    </Segment>
+
     <Segment>
       <Name>2</Name>
       <Icon />
