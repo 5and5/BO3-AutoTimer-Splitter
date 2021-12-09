@@ -2,7 +2,7 @@
 <Run version="1.7.0">
   <GameIcon />
   <GameName>Black Ops 3</GameName>
-  <CategoryName>Auto Splitter</CategoryName>
+  <CategoryName></CategoryName>
   <LayoutPath>
   </LayoutPath>
   <Metadata>
@@ -16,10 +16,6 @@
   <Offset>00:00:00</Offset>
   <AttemptCount>4</AttemptCount>
   <AttemptHistory>
-    <Attempt id="1" started="12/08/2021 02:23:32" isStartedSynced="False" ended="12/08/2021 02:25:06" isEndedSynced="True" />
-    <Attempt id="2" started="12/08/2021 02:25:14" isStartedSynced="False" ended="12/08/2021 02:25:32" isEndedSynced="False" />
-    <Attempt id="3" started="12/08/2021 02:30:25" isStartedSynced="False" ended="12/08/2021 02:32:18" isEndedSynced="True" />
-    <Attempt id="4" started="12/08/2021 02:32:26" isStartedSynced="False" ended="12/08/2021 02:32:56" isEndedSynced="False" />
   </AttemptHistory>
   <Segments>
     <Segment>
