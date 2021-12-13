@@ -1,6 +1,6 @@
-# BO123-AutoTimer-Splitter
+# BO3-AutoTimer-Splitter
 
- An automatic timer and splitter for Black Ops 3.
+ An automatic timer and splitter for Black Ops 3 Zombies.
 
 ## Important
 
