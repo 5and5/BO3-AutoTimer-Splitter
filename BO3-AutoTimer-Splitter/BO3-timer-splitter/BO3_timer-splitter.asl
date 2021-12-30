@@ -62,3 +62,12 @@ isLoading
 {
 	return true;
 }
+
+reset
+{
+	if(current.round == 0)
+	{
+		return true;
+	}
+	return false;
+}

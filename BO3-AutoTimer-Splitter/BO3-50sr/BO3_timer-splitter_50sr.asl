@@ -5,6 +5,15 @@ state("BlackOps3")
 	string13 currentMap : 0x179E1840;
 }
 
+reset
+{
+	if(current.round == 0)
+	{
+		return true;
+	}
+	return false;
+}
+
 update
 {
 	if(old.round == 0 && current.round == 1)

@@ -14,6 +14,7 @@ update
 	}
 
 	vars.trueTime = current.tick / 100;
+}
 
 gameTime
 {
