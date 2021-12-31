@@ -1,6 +1,6 @@
 state("BlackOps3") 
 {
-	int tick : 0xA56EFD8;
+	int levelTime : 0xA56EFD8;
 	int round : 0xA55DDEC;
 	string13 currentMap : 0x179E1840;
 }
@@ -9,11 +9,11 @@ update
 {
 	if(old.round == 0 && current.round == 1)
 	{
-		game.WriteValue<UInt16>((IntPtr)vars.addr, (UInt16)current.tick);
-		vars.fixedOffset = current.tick;
+		game.WriteValue<UInt16>((IntPtr)vars.addr, (UInt16)current.levelTime);
+		vars.fixedOffset = current.levelTime;
 	}
-
-	vars.trueTime = current.tick / 100;
+	
+	vars.trueTime = current.levelTime - vars.fixedOffset;
 }
 
 gameTime
@@ -33,6 +33,8 @@ gameTime
 init
 {
 	refreshRate = 100;
+	vars.addr = game.MainModule.BaseAddress + 0xA55DEB0;
+	vars.fixedOffset = game.ReadValue<UInt16>((IntPtr)vars.addr);
 }
 
 start
