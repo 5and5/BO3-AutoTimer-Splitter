@@ -7,8 +7,7 @@ state("BlackOps3")
 
 reset
 {
-    if(current.round_counter == 0 && old.round_counter != 0 || current.map_name.Equals("core_frontend")) return true;
-    return false;
+   if(current.round == 0 && old.round != 0) return true;
 }
 
 update
